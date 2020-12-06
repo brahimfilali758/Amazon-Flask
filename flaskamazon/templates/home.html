@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+    {% for i in range(50) %}
+        <div class="product">
+            <img  class="product-img" src="http://bit.ly/2tMBBTd" alt="...">
+            <div class="product-info">
+            <div class="product-text">
+                <a href="" class="product-name">Harvest Vase</a>
+                <a href="" class="product-seller">by studio and friends</a>
+            </div>
+            <div class="product-price-btn">
+                <p><span class="price">78</span>$</p>
+                <button class="button-buy" type="button">buy now</button>
+            </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock content %}
